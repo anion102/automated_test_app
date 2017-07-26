@@ -10,10 +10,10 @@ class LoginTest < Test::Unit::TestCase
 
   def setup
      @phone='18765950001'
-     @pwd='aaa111'
-     @bundle='com.shenlongsjd.p2p'
-     @app_path='/Users/ceshi/Documents/app/MobileLoan.app'
-     @url='http://192.168.2.97:8100'
+     @pwd='aaa'
+     @bundle='app'
+     @app_path=''
+     @url='http://127.0.0.1:8100'
    end
 
   def test_01

@@ -6,11 +6,11 @@ class Login
 
   def initialize
     @login={
-        'me' => {:label=>'我'},
+        'me' => {:label=>''},
         'login_enter' => {:label=>'登录'},
         'login_btn' => {:label=>'登 录'},
-        'phone' => {:xpath=>'//XCUIElementTypeTextField[1]'},
-        # 'pwd' => {:xpath=>'//XCUIElementTypeSecureTextField[1]'},
+        'phone' => {:xpath=>''},
+        # 'pwd' => {:xpath=>''},
         'pwd'=>{:value=>'请输入密码'},
         'clear'=>{:name=>'清除文本'},
     }
